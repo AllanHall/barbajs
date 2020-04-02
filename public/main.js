@@ -1,5 +1,6 @@
 /* eslint-disable no-undef */
 const main = () => {
+  barba.init()
 }
 
 document.addEventListener('DOMContentLoaded', main)
