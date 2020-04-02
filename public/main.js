@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 const main = () => {
-  barba.init()
+  // barba.init()
 }
 
 document.addEventListener('DOMContentLoaded', main)
@@ -14,7 +14,7 @@ function pageTransition () {
 function contentAnimation () {
   var tl = gsap.timeline()
   tl.from('.left', { duration: 1.5, translateY: 50, opacity: 0 })
-  tl.to('img', { clippath: 'polygon(0 0, 100% 0, 100% 100%. 0% 100%)' })
+  tl.to('img', { clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)' })
 }
 
 function delay (n) {
